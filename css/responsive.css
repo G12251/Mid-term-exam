@@ -1,0 +1,41 @@
+@media (max-width: 1000px) {
+  .header-cards-bottom {
+    gap: 8px;
+  }
+  .header-card-board {
+    height: 220px;
+  }
+
+  .home, .nav-logo h1{
+    padding-left: 10px;
+  }
+
+  
+
+}
+
+@media (max-width: 900px) {
+  .header-cards-bottom {
+    display: grid;
+    flex-direction: column;
+  }
+  .header-card-board {
+    height: 210px;
+  }
+
+  .home{
+    display: none;
+  }
+
+  .header-section {
+    flex-direction: none;
+  }
+
+  .header-texts-half-empty{
+        display: none;
+    }
+  .header-texts {
+    padding-top: 100px;
+  }
+
+}
