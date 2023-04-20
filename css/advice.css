@@ -1,0 +1,81 @@
+.advice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FAFAFA;
+    padding-top: 205px;
+    width: 100%;
+}
+.advice-container{
+    width: 1040px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 80px;
+}
+
+.advice-text {
+    width: 511px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.advice-text h2 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+}
+.advice-text p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #737373;
+    padding-bottom: 45px;
+    
+}
+
+.advice-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+}
+
+.advice-card-mini {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 230px;
+    height: 321px;
+    gap: 10px;
+    background: #FFFFFF;
+}
+
+.advice-card-mini h2 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #252B42;
+    padding: 30px;
+    padding-bottom: 15px;
+}
+
+.advice-card-mini p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #737373;
+    
+    padding: 0 28px;
+    
+}
+.advice-card-mini img {
+    object-position: contain;
+}
