@@ -366,28 +366,25 @@
     </section>
 
     <section class="contact-input">
-        <div class="contact-input-us container">
+        <div class="contact-input-container">
           <form action="#">
-            <input class="name" type="text" placeholder="Name*">
+            <input class="name" type="text">
+            <span class="placeholder">Your Name</span>
             <input class="email-1" type="email" placeholder="Email">
             <input class="tel"
-            pattern="^\+998(33|7(0|1|7)|88|9\d{1})(\d{7})$"
-            placeholder="Phone number*"
-            name="phoneNumber"
-            id="phoneNumber"
-            type="text"
-            oninvalid="this.setCustomValidity('+99899940807 shunaqa formatda bolsin !')"/>
+            type="text">
+            <span class="placeholder">Phone number</span>
             <textarea class="comment"
                 placeholder="Comment"
                 name=""
                 id=""
               ></textarea>
-            <select class="select" name="" id="#">
-              <option value="tashkent">How did you find us?</option>
-              <option value="sirdaryo">Telegram</option>
-              <option value="jizzax">Instagram</option>
-              <option value="samarqand">Twitter</option>
-              <option value="qashqadaryo">Facebook </option>
+            <select class="select" name="" id="#" placeholder="How did you find us?">
+              <option value="how">How did you find us?</option>
+              <option value="Telegram">Telegram</option>
+              <option value="Instagram">Instagram</option>
+              <option value="Twitter">Twitter</option>
+              <option value="Facebook">Facebook </option>
             </select>
           </form>
           <button class="contact-button"><a href="#">Contact Us</a></button>
