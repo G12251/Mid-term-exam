@@ -1,0 +1,110 @@
+.contact {
+    background-color:#F3F3F3  ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding-top: 205px; */
+    width: 100%;
+    height: 808px;
+}
+.contact-container{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 80px;
+    max-width: 1040px;
+}
+
+.contact-text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-text h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    padding-bottom: 10px;
+}
+
+.contact-text p {
+    width: 511px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+
+.contact-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 40px;
+    gap: 10px;
+}
+.contact-card-mini {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 328px;
+    height: 333px;
+    background: #FFFFFF;
+}
+.contact-card-mini:hover,
+.contact-card-mini:hover h5,
+.contact-card-mini:hover button,
+.contact-card-mini:hover path,
+.contact-card-mini:hover a {
+    background:#252B42;
+    color: #FFFFFF;
+    border-color:#FFFFFF;
+    fill: #FFFFFF;
+}
+.contact-card-mini svg {
+    padding-bottom: 15px;
+}
+.contact-card-mini h2 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: #252B42;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.contact-card-mini a {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    text-decoration: none;
+}
+.contact-card-mini button {
+    background-color: transparent;
+    width: 160px;
+    height: 44px;
+    border: 1px solid #FFA62B;
+    border-radius: 5px;
+}
+.contact-card-mini button a{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFA62B;
+}
+
+
