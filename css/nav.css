@@ -46,13 +46,14 @@
   display: flex;
   width: 50%;
   justify-content: end;
+  font-size: 14px;
 }
 
 .nav-bar a {
   margin: 0 14px;
   font-style: normal;
   font-weight: 600;
-  font-size: 14px;
+  font-size: inherit;
   line-height: 24px;
   text-align: center;
   letter-spacing: 0.2px;
@@ -63,4 +64,23 @@
 
 .nav-bar a:hover {
   color: black;
+}
+
+.desktop-hidden {
+  display: none;
+}
+
+.mobile-navbar {
+  opacity: 0;
+  transition: 0.4s all;
+  transform: translateY(-400%);
+  min-height: 0;
+  width: 100%;
+  background: red;
+}
+
+.mobile-navbar.open {
+  opacity: 1;
+  min-height: 400px;
+  transform: translateY(0);
 }

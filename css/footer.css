@@ -13,7 +13,8 @@
   gap: 30px;
   margin-left: 0px;
   margin-right: 0px;
-  width: 1040px;
+  max-width: 1040px;
+  width: 100%;
   padding-bottom: 80px;
 }
 
@@ -55,7 +56,8 @@
   justify-content: space-between;
   margin-left: 0px;
   margin-right: 0px;
-  width: 1040px;
+  max-width: 1040px;
+  width: 100%;
 }
 /* .footer-2 {
   display: flex;

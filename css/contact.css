@@ -3,7 +3,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* padding-top: 205px; */
+    padding-top: 205px;
     width: 100%;
     height: 808px;
 }
@@ -12,6 +12,7 @@
     flex-direction: column;
     padding-bottom: 80px;
     max-width: 1040px;
+    width: 100%;
 }
 
 .contact-text {
@@ -48,6 +49,7 @@
     align-items: center;
     padding: 30px 40px;
     gap: 10px;
+    flex-wrap: wrap;
 }
 .contact-card-mini {
     display: flex;
@@ -60,7 +62,7 @@
     background: #FFFFFF;
 }
 .contact-card-mini:hover,
-.contact-card-mini:hover h3,
+.contact-card-mini:hover h2,
 .contact-card-mini:hover button,
 .contact-card-mini:hover path,
 .contact-card-mini:hover a {

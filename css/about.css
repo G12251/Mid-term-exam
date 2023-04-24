@@ -22,6 +22,7 @@
   width: 100%;
   max-width: 1040px;
   gap: 40px;
+  flex-wrap: wrap;
 }
 
 .about-card {

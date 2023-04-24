@@ -10,12 +10,14 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 1040px;
+  max-width: 1040px;
+  width: 100%;
 }
 
 .name {
   height: 50px;
-  width: 1050px;
+  max-width: 1040px;
+  width: 100%;
   padding: 12px 20px 12px 20px;
   border: 1px solid #e0e0e0;
   margin-top: 100px;
@@ -40,14 +42,16 @@
 
 .email-1 {
   height: 50px;
-  width: 1050px;
+  max-width: 1040px;
+  width: 100%;
   padding: 12px 20px 12px 20px;
   border: 1px solid #e0e0e0;
   margin-bottom: 20px;
 }
 .tel {
   height: 50px;
-  width: 1050px;
+  max-width: 1040px;
+  width: 100%;
   padding: 12px 20px 12px 20px;
   border: 1px solid #e0e0e0;
   margin-bottom: 20px;
@@ -55,14 +59,16 @@
 .comment {
   resize: none;
   height: 156px;
-  width: 1050px;
+  max-width: 1040px;
+  width: 100%;
   padding: 12px 20px 12px 20px;
   border: 1px solid #e0e0e0;
   margin-bottom: 20px;
 }
 .select {
   height: 50px;
-  width: 1050px;
+  max-width: 1040px;
+  width: 100%;
   padding: 12px 20px 12px 20px;
   border: 1px solid #e0e0e0;
   margin-bottom: 59px;

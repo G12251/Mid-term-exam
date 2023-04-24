@@ -10,30 +10,60 @@
     padding-left: 10px;
   }
 
-  
+  .service-card {
+    flex-direction: column;
+  }
 
 }
 
 @media (max-width: 900px) {
   .header-cards-bottom {
     display: grid;
-    flex-direction: column;
+    justify-content: center;
   }
   .header-card-board {
     height: 210px;
   }
 
-  .home{
+  .header-texts-half-empty{
     display: none;
+  }
+  .footer-container, .footer-container > div {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .home {
+    height: auto;
+    background-position: center center;
+    text-align: center;
   }
 
   .header-section {
-    flex-direction: none;
+    display: grid;
+  }
+}
+
+
+@media (max-width: 600px) {
+  .desktop-hidden {
+    display: block;
   }
 
-  .header-texts-half-empty{
-        display: none;
-    }
- 
-
+  .mobile-hidden {
+    display: none;
+  }
+  .nav-container {
+    justify-content: space-between;
+    padding: 0 1rem;
+  }
+  .logoemail-icon {
+    flex-direction: column;
+    height: auto;
+  }
+  .logoemail-text {
+    display: none;
+  }
 }

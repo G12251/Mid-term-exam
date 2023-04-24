@@ -44,6 +44,7 @@
     flex-direction: row;
     align-items: center;
     gap: 40px;
+    flex-wrap: wrap;
 }
 
 .advice-card-mini {
