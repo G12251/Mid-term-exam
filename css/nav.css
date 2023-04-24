@@ -76,11 +76,27 @@
   transform: translateY(-400%);
   min-height: 0;
   width: 100%;
-  background: red;
+  background: #F6F6F6;
 }
 
 .mobile-navbar.open {
   opacity: 1;
-  min-height: 400px;
   transform: translateY(0);
+  padding: 55px 0;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.mobile-navbar.open a{
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 30px;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 45px;  
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #737373;
+  text-decoration: none;
 }

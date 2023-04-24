@@ -5,7 +5,7 @@
   width: 100%;
   background: #fafafa;
   flex-direction: column;
-  height: 528px;
+  /* height: 528px; */
   padding-top: 80px;
 }
 
@@ -19,6 +19,7 @@
 .about-cards-section {
   display: flex;
   flex-direction: row;
+  justify-content: center;
   width: 100%;
   max-width: 1040px;
   gap: 40px;

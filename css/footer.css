@@ -50,6 +50,8 @@
   height: 68px;
   align-items: center;
   justify-content: center;
+  width: 100%;
+  max-width: 1040px;
 }
 .container {
   display: flex;
@@ -59,10 +61,7 @@
   max-width: 1040px;
   width: 100%;
 }
-/* .footer-2 {
-  display: flex;
 
-} */
 .footer-2 h2 {
   font-weight: 600;
   font-size: 14px;
@@ -72,7 +71,5 @@
 }
 .footer-icon-2 {
   display: flex;
-  /* align-items: center; */
-  /* justify-items: right; */
   gap: 20px;
 }

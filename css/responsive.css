@@ -1,3 +1,5 @@
+
+
 @media (max-width: 1000px) {
   .header-cards-bottom {
     gap: 8px;
@@ -6,14 +8,14 @@
     height: 220px;
   }
 
-  .home, .nav-logo h1{
+  .home,
+  .nav-logo h1 {
     padding-left: 10px;
   }
 
   .service-card {
     flex-direction: column;
   }
-
 }
 
 @media (max-width: 900px) {
@@ -25,10 +27,11 @@
     height: 210px;
   }
 
-  .header-texts-half-empty{
+  .header-texts-half-empty {
     display: none;
   }
-  .footer-container, .footer-container > div {
+  .footer-container,
+  .footer-container > div {
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -46,12 +49,25 @@
   }
 }
 
+@media (max-width: 700px) {
+  .contact-card {
+    flex-wrap: wrap;
+  }
+
+  .logoemail-container {
+    flex-direction: column;
+  }
+  .logoemail-icon {
+    flex-direction: column;
+    height: auto;
+  }
+}
 
 @media (max-width: 600px) {
   .desktop-hidden {
     display: block;
   }
-
+  
   .mobile-hidden {
     display: none;
   }
@@ -62,8 +78,77 @@
   .logoemail-icon {
     flex-direction: column;
     height: auto;
+    gap: 60px;
+    margin: 80px 0;
   }
   .logoemail-text {
-    display: none;
+    flex-direction: column;
+  }
+  .logoemail-text-input {
+    display: flex;
+    flex-direction: row;
+  }
+  .footer-container,
+  .footer-second {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 87px;
+  }
+  .footer-container > div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .footer-2 h2 {
+    padding-bottom: 50px;
+  }
+  .footer-icon-2 {
+    padding-bottom: 55px;
+  }
+}
+
+@media (max-width: 500px) {
+  h1,
+  h2 {
+    font-size: 40px;
+  }
+  .header-texts {
+    display: flex;
+    align-items: center;
+  }
+
+  .header-texts h1 {
+    font-size: 40px;
+  }
+
+  .header-texts p {
+    font-size: 12px;
+  }
+
+  #services {
+    padding-left: 10px;
+  }
+
+  .service-photo {
+    display: contents;
+  }
+  .service-photo img {
+    height: 442px;
+    width: 333px;
+  }
+
+  .container {
+    flex-direction: column;
+    margin-top: 50px;
+  }
+  .advice-text p,
+  .service-text p,
+  .header-texts p,
+  .about-texts p,
+  .contact-text p {
+    max-width: 225px;
+    width: auto;
   }
 }
